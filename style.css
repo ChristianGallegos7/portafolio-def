@@ -385,3 +385,19 @@ footer {
     font-weight: 700 !important;
     padding: 10px !important;
 }
+
+#toggle {
+    display: none;
+}
+
+#label__toggle {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+/* Estilos para el tema claro */
+.claro {
+    background-color: #fff;
+    color: #000;
+    transition: all 1.5s ease;
+}
