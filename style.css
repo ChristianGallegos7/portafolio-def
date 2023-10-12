@@ -80,7 +80,7 @@ span {
 
 .me__image img {
     width: 250px;
-    height: 250px;
+    height: 300px;
     border-radius: 50%;
     /* Hace que la imagen sea redonda */
     border: 2px solid rgb(0, 181, 232);
@@ -125,6 +125,28 @@ span {
     font-weight: 800;
     border-radius: 8px;
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
+
+}
+
+.btn {
+    width: 100px;
+    display: flex;
+    /* Usamos flexbox para centrar verticalmente */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    color: #00b5e8;
+    border: 1px solid #00b5e8;
+    padding: 8px 5px;
+    margin-top: 15px;
+    font-weight: 800;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.btn:hover {
+    background-color: #00bbef49;
 
 }
 
@@ -190,4 +212,176 @@ span {
 .about__skills>div:hover h4 {
     color: #00b5e8;
     /* Cambia el color del texto al hacer hover */
+}
+
+.work {
+    height: 100vh;
+    color: white;
+    background-color: #000d1d;
+    padding: 10px 10%;
+}
+
+.work__title__h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.card {
+    width: 325px;
+    border: 1px solid #00b5e8;
+    margin-top: 10px;
+    background-color: #011939;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card__picture {
+    width: 100%;
+    border-bottom: 1px solid #00b5e8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.card__texts {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.card__links {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.blue {
+    background-color: #00b5e8;
+    color: white;
+    margin-left: 15px;
+}
+
+.work__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.card__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 100vh;
+    background-color: #011939;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.contact__form form {
+    background-color: #000d1d;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    padding: 30px 20px;
+    border-radius: 15px;
+}
+
+
+.contact__form form label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #acb4bd;
+
+}
+
+.contact__form form input {
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #00b5e8;
+    background-color: #011939;
+    font-size: 14px;
+    font-weight: 700;
+    color: #858f9c;
+}
+
+
+
+
+.contact__form form button {
+    background-color: #00b5e8;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    font-weight: 800;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.contact__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__text p {
+    display: flex;
+    align-items: center;
+    /* Esto alinea verticalmente el contenido del párrafo */
+    margin-bottom: 10px;
+    /* Agrega un espacio en la parte inferior para separar los párrafos */
+}
+
+.contact__text svg {
+    color: #00b5e8;
+    margin-right: 5px;
+}
+
+.contact__social {
+    display: flex;
+    color: #00b5e8;
+    margin-top: 15px;
+}
+
+.contact__social div {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+.text__form {
+    margin-bottom: 10px;
+}
+
+.contact__form .texta {
+    border-radius: 7px !important;
+    margin-bottom: 10px !important;
+    border: 1px solid #00b5e8 !important;
+    background-color: #011939 !important;
+    color: #858f9c !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    padding: 10px !important;
 }
