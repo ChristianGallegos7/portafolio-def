@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", system-ui, -apple-system, Roboto, Ubuntu, sans-serif;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: #00b5e8;
+}
+
+.navbar {
+    background-color: #000c1f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 16%;
+    border-bottom: 1px solid #00b5e8;
+}
+
+.modeicon {
+    cursor: pointer;
+}
+
+.navbar__h1 {
+    font-weight: 800;
+}
+
+.navbar__list {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.navbar__list li {
+    list-style: none;
+}
+
+.navbar__list a {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    transition: ease-out .5s all;
+}
+
+.navbar__list a:hover {
+    color: #00b5e8;
+
+
+}
+
+.me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* Centra verticalmente en el eje Y */
+    justify-content: space-around;
+    /* Centra horizontalmente en el eje X */
+    height: 100%;
+    background-color: #000b1a;
+    color: white;
+    background-image: radial-gradient(at 0% 0%, hsla(222, 100%, 11%, 1) 0px, transparent 50%), radial-gradient(at 100% 100%, hsla(222, 100%, 11%, 1) 0px, transparent 50%)
+}
+
+.me__image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* Hace que la imagen sea redonda */
+    border: 2px solid rgb(0, 181, 232);
+    /* Agrega un borde de color #00b5e8 */
+    transition: all .5s;
+    /* Agrega una animación para todos los cambios */
+}
+
+.me__image img:hover {
+    transform: rotate(90deg);
+    /* Rota la imagen 180 grados al hacer hover */
+    box-shadow: 0 0 30px rgb(0, 181, 232);
+    /* Agrega una sombra alrededor de la imagen */
+}
+
+
+
+.me__texts>* {
+    padding-bottom: 5px;
+}
+
+.me__texts__h2 {
+    font-weight: lighter;
+}
+
+.me__texts__h1 {
+    color: #00b5e8;
+}
+
+.btn_resume {
+    width: 130px;
+    display: flex;
+    /* Usamos flexbox para centrar verticalmente */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    color: #00b5e8;
+    border: 1px solid #00b5e8;
+    padding: 8px 14px;
+    margin-top: 15px;
+    font-weight: 800;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+
+}
+
+.btn_resume:hover {
+    background-color: #00bbef49;
+}
+
+.btn_resume svg {
+    color: #00b5e8;
+    align-items: center;
+    margin-left: 5px;
+}
