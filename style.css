@@ -90,7 +90,7 @@ span {
 }
 
 .me__image img:hover {
-    transform: rotate(90deg);
+    transform: translateY(1in);
     /* Rota la imagen 180 grados al hacer hover */
     box-shadow: 0 0 30px rgb(0, 181, 232);
     /* Agrega una sombra alrededor de la imagen */
@@ -136,4 +136,58 @@ span {
     color: #00b5e8;
     align-items: center;
     margin-left: 5px;
+}
+
+.about {
+    height: 100vh;
+    background-color: #011939;
+    color: white;
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__text {
+    width: 550px;
+}
+
+.about__text p {
+    margin-top: 18px;
+    font-size: 18px;
+}
+
+
+.about__text h2 {
+    font-weight: 800;
+}
+
+.about__right {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__education>* {
+    font-size: 16px;
+}
+
+.about__skills {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.about__skills>div {
+    margin-right: 10px;
+}
+
+.about__skills>div:hover img {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+}
+
+.about__skills>div:hover h4 {
+    color: #00b5e8;
+    /* Cambia el color del texto al hacer hover */
 }
